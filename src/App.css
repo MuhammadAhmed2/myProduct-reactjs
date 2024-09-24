@@ -1,0 +1,80 @@
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Layout */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Main product container */
+.Main-product-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* Product title styling */
+.product-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Price styling */
+.price {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Carousel for selecting product images */
+.crousel-selection {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.crousel-selection button {
+  border: none;
+  background: none;
+  padding: 5px;
+}
+
+.crousel-selection button img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.crousel-selection button img:hover {
+  transform: scale(1.1);
+}
+
+/* Buy Now button styling */
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #218838;
+}
