@@ -1,4 +1,4 @@
-/* General styling */
+General styling
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +41,7 @@ body {
 /* Carousel for selecting product images */
 .crousel-selection {
   display: flex;
+  
   gap: 10px;
   margin-bottom: 20px;
 }
